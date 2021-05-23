@@ -80,7 +80,7 @@ GET /docs/auth
 
 ## Authentication
 
-API to create an access token along with a refresh token for each user. Access token validity should be 1 hr and refresh token validity 1 year.
+API to create an access token along with a refresh token for each user. Access token validity is 1 hr and refresh token validity is 1 year.
 
 ```http
 POST /api/auth/login
@@ -208,7 +208,7 @@ Response
 
 Note:
 
-- `passwordSalt` is a random string. Different for each user. Every time password is changes, passwordSalt should be changed
+- `passwordSalt` is a random string. Different for each user. Every time password is changed, passwordSalt should be changed
 
 - `password` stored in db is sha256(actualUserPassword + passwordSalt)
 
