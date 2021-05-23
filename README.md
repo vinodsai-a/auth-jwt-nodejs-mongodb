@@ -1,8 +1,12 @@
-# api-auth
+# auth-jwt-nodejs-mongodb
 
 ## Description
 
 JWT Auth using Access Token and Refresh Token
+
+Framework: `Nestjs`
+
+Db: `MongoDB`
 
 ## Installation
 
