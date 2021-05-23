@@ -1,0 +1,24 @@
+# Default config
+service:
+  name: api-auth
+  description: "JWT Auth using Access Token and Refresh Token"
+  baseUrl: /api/auth
+  docsBaseUrl: /docs/auth
+  apiVersion: 0.1.0
+  appVersion: 0.1.0
+
+server:
+  host: 127.0.0.1
+  port: 3000
+  hostname: 127.0.0.1:3000
+  swaggerSchema: http
+
+db:
+  sslValidate: false
+  sslCAPath: ""
+
+jwt:
+  accessToken:
+    secret: "access_token_secret"
+  refreshToken:
+    secret: "refresh_token_secret"

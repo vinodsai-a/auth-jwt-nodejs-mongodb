@@ -1,0 +1,10 @@
+# Config for NODE_ENV=prod environment
+db:
+  sslValidate: false
+  sslCAPath: ""
+
+jwt:
+  accessToken:
+    secret: "access_token_secret"
+  refreshToken:
+    secret: "refresh_token_secret"
